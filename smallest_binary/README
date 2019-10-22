@@ -1,0 +1,12 @@
+
+- sample that does not use C library, main entry point, or libc functions 
+- entry point MUST be called _start 
+- try this:
+
+$ gdb hello
+$ strip hello.o 
+$ objdump -M intel -d hello.o
+$ objdump -s ./hello.o
+$ strings hello.o
+
+

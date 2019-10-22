@@ -1,0 +1,3 @@
+sasm can only accept a single module file, and uses the include "io.inc"
+The same source can be used with this Makefile 
+if using sasm and gdb, watch the ~/.gdbinit file, sasm needs it clean 
